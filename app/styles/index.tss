@@ -1,0 +1,24 @@
+".container": {
+	backgroundColor:"white",
+	layout: 'vertical'
+},
+
+"#myItem":{
+	height: 80
+},
+"#title":{
+	font: {fontSize: 14, fontWeight: 'bold'},
+	color: 'red',
+	left: 15,
+	top: 5,
+	height: 20,
+	right: 15
+},
+"#value":{
+	font: {fontSize: 12, fontStyle: 'italic'},
+	color: 'blue',
+	left: 15,
+	top: 20,
+	height: 20,
+	width: Ti.UI.SIZE	
+}

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container">
+		<Button id="reloadButton" onClick="doClick" title="Load List" height="30" top="25"/>
+		<Button id="clearButton" onClick="doClear" title="Clear List" height="30" top="5"/>
+		<ListView id="testList">
+			<Templates>
+				<ItemTemplate name="myItem" id="myItem">
+					<Label bindId="title" id="title" />
+					<Label bindId="value" id="value" />
+				</ItemTemplate>
+			</Templates>	
+			<ListSection id="mySection" />
+		</ListView>
+	</Window>
+</Alloy>
